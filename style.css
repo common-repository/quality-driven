@@ -1,0 +1,124 @@
+#qds-wp {
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.5;
+}
+
+#qds-wp .qds-logo {
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 1em;
+}
+
+ul.tabs {
+    margin: 0 0 -10px 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.tabs li {
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+ul.tabs li.current {
+    background: #fff;
+    color: #222;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 -2px 5px -2px rgba(0, 0, 0, 0.25);
+}
+
+.tab-content {
+    display: none;
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 -2px 5px -2px rgba(0, 0, 0, 0.25);
+    padding: 40px;
+}
+
+.tab-content.current {
+    display: inherit;
+}
+
+.form-group label {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    line-height: 1.4285;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.form-group input {
+    display: block;
+    padding: 6px 12px;
+    height: 34px;
+    font-size: 14px;
+    line-height: 1.4285;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.examples .form-group {
+    margin-bottom: 40px;
+}
+
+.examples img {
+    display: block;
+    margin: 40px auto;
+}
+
+.list {
+    list-style: square;
+    padding-left: 40px;
+}
+
+.alert {
+    border: 1px solid #ccc;
+    border-left: 5px solid #ccc;
+    padding: 5px 10px;
+    margin: 20px 0;
+    background: #fff;
+}
+
+.alert.alert-success {
+    border-left-color: #4CAF50;
+    color: #4CAF50;
+    font-weight: 700;
+}
+
+.qds-table {
+    margin: 20px;
+    border-collapse: collapse;
+    border: 1px solid #e7e7e7;
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.qds-table th {
+    background: #f7f7f7;
+}
+
+.qds-table th, .qds-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #e7e7e7;
+}
+
+.qds-table.options-table td:first-child {
+    white-space: nowrap;
+}
